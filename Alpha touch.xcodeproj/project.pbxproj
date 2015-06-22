@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A2B5C81B31D27C00A61436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B5C71B31D27C00A61436 /* main.m */; };
+		21A2B5CB1B31D27C00A61436 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B5CA1B31D27C00A61436 /* AppDelegate.m */; };
+		21A2B5D11B31D27C00A61436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A2B5CF1B31D27C00A61436 /* Main.storyboard */; };
+		21A2B5D31B31D27C00A61436 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A2B5D21B31D27C00A61436 /* Images.xcassets */; };
+		21A2B5D61B31D27C00A61436 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A2B5D41B31D27C00A61436 /* LaunchScreen.xib */; };
+		21A2B5E21B31D27C00A61436 /* Alpha_touchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B5E11B31D27C00A61436 /* Alpha_touchTests.m */; };
+		21F57B6C1B334A40001BE50D /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F57B6B1B334A40001BE50D /* AddToDoItemViewController.m */; };
+		21F57B6F1B335430001BE50D /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F57B6E1B335430001BE50D /* ToDoListTableViewController.m */; };
+		21F57B721B3360FE001BE50D /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F57B711B3360FE001BE50D /* ToDoItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A2B5DC1B31D27C00A61436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A2B5BA1B31D27C00A61436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A2B5C11B31D27C00A61436;
+			remoteInfo = "Alpha touch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21A2B5C21B31D27C00A61436 /* Alpha touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A2B5C61B31D27C00A61436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A2B5C71B31D27C00A61436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21A2B5C91B31D27C00A61436 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21A2B5CA1B31D27C00A61436 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21A2B5D01B31D27C00A61436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21A2B5D21B31D27C00A61436 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21A2B5D51B31D27C00A61436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21A2B5DB1B31D27C00A61436 /* Alpha touchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alpha touchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A2B5E01B31D27C00A61436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A2B5E11B31D27C00A61436 /* Alpha_touchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alpha_touchTests.m; sourceTree = "<group>"; };
+		21F57B6A1B334A40001BE50D /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddToDoItemViewController.h; path = ../AddToDoItemViewController.h; sourceTree = "<group>"; };
+		21F57B6B1B334A40001BE50D /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddToDoItemViewController.m; path = ../AddToDoItemViewController.m; sourceTree = "<group>"; };
+		21F57B6D1B335430001BE50D /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoListTableViewController.h; path = ../ToDoListTableViewController.h; sourceTree = "<group>"; };
+		21F57B6E1B335430001BE50D /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoListTableViewController.m; path = ../ToDoListTableViewController.m; sourceTree = "<group>"; };
+		21F57B701B3360FE001BE50D /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = SOURCE_ROOT; };
+		21F57B711B3360FE001BE50D /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A2B5BF1B31D27C00A61436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A2B5D81B31D27C00A61436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A2B5B91B31D27C00A61436 = {
+			isa = PBXGroup;
+			children = (
+				21A2B5C41B31D27C00A61436 /* Alpha touch */,
+				21A2B5DE1B31D27C00A61436 /* Alpha touchTests */,
+				21A2B5C31B31D27C00A61436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21A2B5C31B31D27C00A61436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A2B5C21B31D27C00A61436 /* Alpha touch.app */,
+				21A2B5DB1B31D27C00A61436 /* Alpha touchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A2B5C41B31D27C00A61436 /* Alpha touch */ = {
+			isa = PBXGroup;
+			children = (
+				21F57B6A1B334A40001BE50D /* AddToDoItemViewController.h */,
+				21F57B6B1B334A40001BE50D /* AddToDoItemViewController.m */,
+				21F57B6D1B335430001BE50D /* ToDoListTableViewController.h */,
+				21F57B6E1B335430001BE50D /* ToDoListTableViewController.m */,
+				21A2B5C91B31D27C00A61436 /* AppDelegate.h */,
+				21A2B5CA1B31D27C00A61436 /* AppDelegate.m */,
+				21A2B5CF1B31D27C00A61436 /* Main.storyboard */,
+				21A2B5D21B31D27C00A61436 /* Images.xcassets */,
+				21A2B5D41B31D27C00A61436 /* LaunchScreen.xib */,
+				21A2B5C51B31D27C00A61436 /* Supporting Files */,
+				21F57B701B3360FE001BE50D /* ToDoItem.h */,
+				21F57B711B3360FE001BE50D /* ToDoItem.m */,
+			);
+			path = "Alpha touch";
+			sourceTree = "<group>";
+		};
+		21A2B5C51B31D27C00A61436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A2B5C61B31D27C00A61436 /* Info.plist */,
+				21A2B5C71B31D27C00A61436 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21A2B5DE1B31D27C00A61436 /* Alpha touchTests */ = {
+			isa = PBXGroup;
+			children = (
+				21A2B5E11B31D27C00A61436 /* Alpha_touchTests.m */,
+				21A2B5DF1B31D27C00A61436 /* Supporting Files */,
+			);
+			path = "Alpha touchTests";
+			sourceTree = "<group>";
+		};
+		21A2B5DF1B31D27C00A61436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A2B5E01B31D27C00A61436 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A2B5C11B31D27C00A61436 /* Alpha touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A2B5E51B31D27C00A61436 /* Build configuration list for PBXNativeTarget "Alpha touch" */;
+			buildPhases = (
+				21A2B5BE1B31D27C00A61436 /* Sources */,
+				21A2B5BF1B31D27C00A61436 /* Frameworks */,
+				21A2B5C01B31D27C00A61436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alpha touch";
+			productName = "Alpha touch";
+			productReference = 21A2B5C21B31D27C00A61436 /* Alpha touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21A2B5DA1B31D27C00A61436 /* Alpha touchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A2B5E81B31D27C00A61436 /* Build configuration list for PBXNativeTarget "Alpha touchTests" */;
+			buildPhases = (
+				21A2B5D71B31D27C00A61436 /* Sources */,
+				21A2B5D81B31D27C00A61436 /* Frameworks */,
+				21A2B5D91B31D27C00A61436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A2B5DD1B31D27C00A61436 /* PBXTargetDependency */,
+			);
+			name = "Alpha touchTests";
+			productName = "Alpha touchTests";
+			productReference = 21A2B5DB1B31D27C00A61436 /* Alpha touchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A2B5BA1B31D27C00A61436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ramesh, Ramachandran";
+				TargetAttributes = {
+					21A2B5C11B31D27C00A61436 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					21A2B5DA1B31D27C00A61436 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 21A2B5C11B31D27C00A61436;
+					};
+				};
+			};
+			buildConfigurationList = 21A2B5BD1B31D27C00A61436 /* Build configuration list for PBXProject "Alpha touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21A2B5B91B31D27C00A61436;
+			productRefGroup = 21A2B5C31B31D27C00A61436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A2B5C11B31D27C00A61436 /* Alpha touch */,
+				21A2B5DA1B31D27C00A61436 /* Alpha touchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A2B5C01B31D27C00A61436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A2B5D11B31D27C00A61436 /* Main.storyboard in Resources */,
+				21A2B5D61B31D27C00A61436 /* LaunchScreen.xib in Resources */,
+				21A2B5D31B31D27C00A61436 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A2B5D91B31D27C00A61436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A2B5BE1B31D27C00A61436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A2B5CB1B31D27C00A61436 /* AppDelegate.m in Sources */,
+				21F57B721B3360FE001BE50D /* ToDoItem.m in Sources */,
+				21F57B6F1B335430001BE50D /* ToDoListTableViewController.m in Sources */,
+				21A2B5C81B31D27C00A61436 /* main.m in Sources */,
+				21F57B6C1B334A40001BE50D /* AddToDoItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A2B5D71B31D27C00A61436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A2B5E21B31D27C00A61436 /* Alpha_touchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A2B5DD1B31D27C00A61436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A2B5C11B31D27C00A61436 /* Alpha touch */;
+			targetProxy = 21A2B5DC1B31D27C00A61436 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21A2B5CF1B31D27C00A61436 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A2B5D01B31D27C00A61436 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21A2B5D41B31D27C00A61436 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A2B5D51B31D27C00A61436 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21A2B5E31B31D27C00A61436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21A2B5E41B31D27C00A61436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21A2B5E61B31D27C00A61436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alpha touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21A2B5E71B31D27C00A61436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alpha touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21A2B5E91B31D27C00A61436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alpha touchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpha touch.app/Alpha touch";
+			};
+			name = Debug;
+		};
+		21A2B5EA1B31D27C00A61436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alpha touchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpha touch.app/Alpha touch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A2B5BD1B31D27C00A61436 /* Build configuration list for PBXProject "Alpha touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A2B5E31B31D27C00A61436 /* Debug */,
+				21A2B5E41B31D27C00A61436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A2B5E51B31D27C00A61436 /* Build configuration list for PBXNativeTarget "Alpha touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A2B5E61B31D27C00A61436 /* Debug */,
+				21A2B5E71B31D27C00A61436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A2B5E81B31D27C00A61436 /* Build configuration list for PBXNativeTarget "Alpha touchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A2B5E91B31D27C00A61436 /* Debug */,
+				21A2B5EA1B31D27C00A61436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21A2B5BA1B31D27C00A61436 /* Project object */;
+}
